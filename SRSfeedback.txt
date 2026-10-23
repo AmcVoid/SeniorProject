@@ -1,0 +1,38 @@
+
+Documentation Feedback ~ Deliverable #2
+Software Requirements Specification
+Initial Development Schedule
+CMSI 4071 Fall 2026
+=======================================
+
+COMPONENT BREAKDOWN:
+   nothing submitted for this document
+
+FUNCTIONAL REQUIREMENTS:
+   nothing submitted for this document
+
+PERFORMANCE REQUIREMENTS:
+   nothing submitted for this document
+
+ENVIRONMENT REQUIREMENTS:
+   nothing submitted for this document
+
+OVERALL ASSESSMENT:
+   Category                          Points
+   Component Breakdown                 0/1
+   Functional Requirements             0/4
+   Performance Requirements            0/2
+   Environment Requirements            0/1
+                                     =====
+   Subtotal                            0/8
+   Preliminary Schedule                0/2
+   ------------------------------------------------------
+   Total Percentage:   0/10 = 0% which is an F for this document
+
+OVERALL ASSESSMENT:
+   If you can put an SRS together and commit it, I'll still evaluate it and
+   give you feedback.  you'll only get 1/2 credit for the first delivery,
+   but if you incorporate the feedback by the end of the semester, you'll
+   get full credit on the second delivery.  MUCH better that nothing!
+
+

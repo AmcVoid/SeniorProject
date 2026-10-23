@@ -1,0 +1,108 @@
+
+Documentation Feedback ~ Deliverable #3
+Software Development Plan [SDP]
+CMSI 4071 Fall 2026
+=======================================
+
+INTRODUCTION/DELIVERABLES SECTION:
+2.2 DELIVERABLE SCOPE
+   Strengths
+      - Deliverables are clearly defined.
+      - Ownership and due dates are explicitly assigned.
+      - Covers documentation, presentations, software artifacts, and
+        final release milestones.
+      - Supports accountability throughout the project.
+   Suggestions
+      - Define acceptance criteria for each deliverable.
+      - Indicate dependencies among major deliverables.
+      - Clarify review and approval responsibilities.
+2.3 WORK BREAKDOWN STRUCTURE
+   Strengths
+      - Excellent decomposition of work into waves and dependency groups.
+      - Parallel work opportunities are clearly identified.
+      - Development and documentation work receive equal planning
+        attention.
+      - Supports realistic scheduling and tracking.
+   Suggestions
+      - Include a dependency diagram for visualization.
+      - Add estimated effort by wave.
+      - Identify which waves represent the highest project risk.
+
+PROJECT RESOURCES SECTION:
+   Strengths
+      - One of the strongest sections in the document.
+      - Roles are clearly differentiated.
+      - Accountability is well defined.
+      - Ownership is assigned for both technical and management tasks.
+      - Includes role responsibilities and decision authority.
+   Suggestions
+      - Add workload-balancing criteria.
+      - Include cross-training expectations.
+      - Define transition procedures if a role owner becomes unavailable.
+
+PROJECT ORGANIZATION SECTION:
+
+
+PROJECT SCHEDULE SECTION:
+   Strengths
+      - Detailed and realistic scheduling.
+      - Milestones have measurable exit criteria.
+      - Strong linkage between schedule and deliverables.
+      - Buffer time is included.
+      - Excellent milestone definitions.
+      - Exit criteria are specific and measurable.
+      - Supports objective progress assessment.
+   Suggestions
+      - Add milestone owners alongside criteria.
+      - Include contingency actions for missed milestones.
+      - Include milestone completion percentages in status reports.
+      - Add visual schedule representations.
+      - Identify schedule dependencies graphically.
+
+OVERALL ASSESSMENT:
+   Category                          Points
+   Project Deliverables                1
+   Project Resources                   1
+   Project Organization                1
+   Project Schedule                    2
+                                     =====
+   Subtotal                            5
+   ------------------------------------------------------
+   Total Percentage:   5/5 = 100% which is an A-plus
+
+Overall Assessment
+------------------
+
+This is an exceptionally strong Software Development Plan that closely
+follows professional software engineering planning practices.  The plan
+goes significantly beyond minimum course expectations by defining roles,
+development processes, risk management, communication protocols,
+configuration management, quality controls, and measurable completion
+criteria.  The document is internally consistent and demonstrates a high
+degree of project maturity.
+
+You also included current baseline and scope change control sections, as
+well as many other sections which were not required.
+
+This Software Development Plan SUBSTANTIALLY exceeds the level typically
+expected for a senior capstone project.  Its strongest features are the
+detailed role definitions, traceability framework, risk management process,
+milestone planning, testing strategy, and configuration-management
+procedures.  The document demonstrates a professional understanding of both
+software engineering process and project management.
+
+The most significant improvement needed before final submission would be to
+complete the role-assignment placeholders [with your name since it's only
+you working on the project] and, where possible, supplement the existing
+text with a few additional visual artifacts such as dependency diagrams,
+workflow diagrams, or Gantt-style schedule views.
+
+It's almost TOO complete.  There is so much here that is NOT required, and
+which is NOT outlined or discussed in any of the course web material, that
+it makes me feel there was some significant A.I. help on this.  I don't
+want to be accusatory, but all you needed to do was follow the document's
+requirements on the course web page that I showed you in my office during
+one of our meetings:  https://bjohnson.lmu.build/cmsi4071web/sdevplan.html
+
+I'm letting it go this time, but next time PLEASE try to do this without
+any significant assistance so that you will LEARN what you're doing.
