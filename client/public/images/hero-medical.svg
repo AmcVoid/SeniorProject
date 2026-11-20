@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" fill="none">
+  <defs>
+    <linearGradient id="hero-grad-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0f9ff" />
+      <stop offset="100%" stop-color="#e0f2fe" />
+    </linearGradient>
+    <linearGradient id="hero-teal-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0d9488" />
+    </linearGradient>
+    <linearGradient id="hero-card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f8fafc" />
+    </linearGradient>
+    <filter id="hero-shadow" x="-10%" y="-10%" width="130%" height="130%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <!-- Background Decorative Shapes -->
+  <circle cx="430" cy="70" r="60" fill="#bae6fd" opacity="0.4" />
+  <circle cx="70" cy="240" r="50" fill="#ccfbf1" opacity="0.5" />
+  <rect x="360" y="210" width="100" height="90" rx="20" fill="#e2e8f0" opacity="0.4" />
+
+  <!-- Main Tablet / Schedule Dashboard Card -->
+  <g filter="url(#hero-shadow)">
+    <rect x="80" y="35" width="280" height="230" rx="16" fill="url(#hero-card-grad)" stroke="#cbd5e1" stroke-width="1.5" />
+    <!-- Header of Card -->
+    <rect x="80" y="35" width="280" height="42" rx="16" fill="url(#hero-teal-grad)" />
+    <!-- Round corner fix for card header -->
+    <rect x="80" y="60" width="280" height="17" fill="url(#hero-teal-grad)" />
+    <circle cx="102" cy="56" r="5" fill="#ffffff" opacity="0.9" />
+    <rect x="116" y="52" width="90" height="8" rx="4" fill="#ffffff" opacity="0.9" />
+    <rect x="320" y="52" width="24" height="8" rx="4" fill="#ffffff" opacity="0.7" />
+
+    <!-- Schedule Item 1 (Morning Dose - Taken) -->
+    <rect x="100" y="95" width="240" height="34" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1" />
+    <circle cx="118" cy="112" r="9" fill="#22c55e" />
+    <path d="M114 112L117 115L122 109" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="135" y="106" width="70" height="6" rx="3" fill="#1e293b" />
+    <rect x="135" y="115" width="40" height="5" rx="2.5" fill="#64748b" />
+    <rect x="290" y="107" width="38" height="10" rx="5" fill="#dcfce7" />
+    <text x="309" y="115" font-family="system-ui, sans-serif" font-size="7" font-weight="bold" fill="#15803d" text-anchor="middle">TAKEN</text>
+
+    <!-- Schedule Item 2 (Noon Dose - Taken) -->
+    <rect x="100" y="137" width="240" height="34" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1" />
+    <circle cx="118" cy="154" r="9" fill="#22c55e" />
+    <path d="M114 154L117 157L122 151" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="135" y="148" width="85" height="6" rx="3" fill="#1e293b" />
+    <rect x="135" y="157" width="50" height="5" rx="2.5" fill="#64748b" />
+    <rect x="290" y="149" width="38" height="10" rx="5" fill="#dcfce7" />
+    <text x="309" y="157" font-family="system-ui, sans-serif" font-size="7" font-weight="bold" fill="#15803d" text-anchor="middle">TAKEN</text>
+
+    <!-- Schedule Item 3 (Evening Dose - Due Soon) -->
+    <rect x="100" y="179" width="240" height="34" rx="8" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1" />
+    <circle cx="118" cy="196" r="9" fill="#3b82f6" />
+    <circle cx="118" cy="196" r="4" fill="#ffffff" />
+    <rect x="135" y="190" width="60" height="6" rx="3" fill="#1e293b" />
+    <rect x="135" y="199" width="45" height="5" rx="2.5" fill="#64748b" />
+    <rect x="290" y="191" width="38" height="10" rx="5" fill="#dbeafe" />
+    <text x="309" y="199" font-family="system-ui, sans-serif" font-size="7" font-weight="bold" fill="#1d4ed8" text-anchor="middle">8:00 PM</text>
+
+    <!-- Progress Tracker Indicator Bar -->
+    <rect x="100" y="228" width="240" height="18" rx="6" fill="#f1f5f9" />
+    <rect x="100" y="228" width="180" height="18" rx="6" fill="#0284c7" />
+    <text x="220" y="240" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#ffffff" text-anchor="middle">Adherence: 94%</text>
+  </g>
+
+  <!-- Medication Bottle Illustration Front Right -->
+  <g filter="url(#hero-shadow)">
+    <!-- Bottle Body -->
+    <rect x="330" y="130" width="76" height="120" rx="14" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5" />
+    <rect x="330" y="130" width="76" height="120" rx="14" fill="#0284c7" fill-opacity="0.06" />
+    <!-- Cap -->
+    <rect x="337" y="112" width="62" height="20" rx="5" fill="#0284c7" />
+    <line x1="344" y1="117" x2="344" y2="127" stroke="#ffffff" stroke-width="1.5" opacity="0.6" />
+    <line x1="352" y1="117" x2="352" y2="127" stroke="#ffffff" stroke-width="1.5" opacity="0.6" />
+    <line x1="360" y1="117" x2="360" y2="127" stroke="#ffffff" stroke-width="1.5" opacity="0.6" />
+    <line x1="368" y1="117" x2="368" y2="127" stroke="#ffffff" stroke-width="1.5" opacity="0.6" />
+    <line x1="376" y1="117" x2="376" y2="127" stroke="#ffffff" stroke-width="1.5" opacity="0.6" />
+    <line x1="384" y1="117" x2="384" y2="127" stroke="#ffffff" stroke-width="1.5" opacity="0.6" />
+    <line x1="392" y1="117" x2="392" y2="127" stroke="#ffffff" stroke-width="1.5" opacity="0.6" />
+    <!-- Label -->
+    <rect x="335" y="152" width="66" height="68" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+    <!-- Rx Symbol on bottle -->
+    <circle cx="368" cy="172" r="12" fill="#e0f2fe" />
+    <text x="368" y="176" font-family="system-ui, sans-serif" font-size="11" font-weight="900" fill="#0369a1" text-anchor="middle">Rx</text>
+    <rect x="343" y="192" width="50" height="4" rx="2" fill="#64748b" />
+    <rect x="343" y="200" width="34" height="4" rx="2" fill="#94a3b8" />
+    <rect x="343" y="208" width="42" height="4" rx="2" fill="#0d9488" />
+  </g>
+
+  <!-- Floating Capsule Pill 1 (Foreground Left) -->
+  <g transform="rotate(35 55 130)" filter="url(#hero-shadow)">
+    <rect x="40" y="100" width="18" height="40" rx="9" fill="#ffffff" stroke="#e2e8f0" />
+    <rect x="40" y="120" width="18" height="20" rx="9" fill="#0284c7" />
+    <rect x="40" y="120" width="18" height="3" fill="#0284c7" />
+  </g>
+
+  <!-- Floating Round Tablet (Foreground Right) -->
+  <g filter="url(#hero-shadow)">
+    <circle cx="430" cy="225" r="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" />
+    <line x1="418" y1="225" x2="442" y2="225" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <!-- Floating Capsule Pill 2 (Top Right) -->
+  <g transform="rotate(-25 410 80)" filter="url(#hero-shadow)">
+    <rect x="400" y="60" width="18" height="38" rx="9" fill="#14b8a6" />
+    <rect x="400" y="79" width="18" height="19" rx="9" fill="#0284c7" />
+    <rect x="400" y="77" width="18" height="3" fill="#0284c7" />
+  </g>
+
+  <!-- Medical Cross Badge (Top Left) -->
+  <g filter="url(#hero-shadow)">
+    <circle cx="70" cy="70" r="18" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" />
+    <rect x="66" y="58" width="8" height="24" rx="3" fill="#ef4444" />
+    <rect x="58" y="66" width="24" height="8" rx="3" fill="#ef4444" />
+  </g>
+</svg>

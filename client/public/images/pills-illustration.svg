@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 140" fill="none">
+  <defs>
+    <linearGradient id="pills-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#14b8a6" />
+    </linearGradient>
+    <filter id="pills-shadow" x="-10%" y="-10%" width="130%" height="130%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#0f172a" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <!-- Ambient circles -->
+  <circle cx="60" cy="70" r="45" fill="#e0f2fe" opacity="0.5" />
+  <circle cx="280" cy="70" r="55" fill="#ccfbf1" opacity="0.4" />
+
+  <!-- Blister Pack / Pill Organizer Tray -->
+  <g filter="url(#pills-shadow)">
+    <rect x="70" y="30" width="160" height="80" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+    <!-- Foil Bubbles -->
+    <rect x="85" y="42" width="26" height="26" rx="13" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1" />
+    <circle cx="98" cy="55" r="9" fill="#0284c7" />
+
+    <rect x="122" y="42" width="26" height="26" rx="13" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1" />
+    <circle cx="135" cy="55" r="9" fill="#14b8a6" />
+
+    <rect x="159" y="42" width="26" height="26" rx="13" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1" />
+    <circle cx="172" cy="55" r="9" fill="#38bdf8" />
+
+    <rect x="196" y="42" width="26" height="26" rx="13" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1" />
+    <circle cx="209" cy="55" r="9" fill="#f59e0b" />
+
+    <!-- Row 2 -->
+    <rect x="85" y="74" width="26" height="26" rx="13" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1" />
+    <circle cx="98" cy="87" r="9" fill="#10b981" />
+
+    <rect x="122" y="74" width="26" height="26" rx="13" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1" />
+    <circle cx="135" cy="87" r="9" fill="#6366f1" />
+
+    <rect x="159" y="74" width="26" height="26" rx="13" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1" />
+    <circle cx="172" cy="87" r="9" fill="#06b6d4" />
+
+    <rect x="196" y="74" width="26" height="26" rx="13" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1" />
+    <circle cx="209" cy="87" r="9" fill="#22c55e" />
+  </g>
+
+  <!-- Large Angled Capsule Pill -->
+  <g transform="rotate(-30 260 70)" filter="url(#pills-shadow)">
+    <rect x="245" y="35" width="30" height="70" rx="15" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" />
+    <rect x="245" y="70" width="30" height="35" rx="15" fill="url(#pills-grad)" />
+    <line x1="243" y1="70" x2="277" y2="70" stroke="#0284c7" stroke-width="1.5" />
+    <!-- Shine highlight on pill -->
+    <path d="M251 45C251 42 253 40 256 40" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <!-- Small Round Tablet -->
+  <g filter="url(#pills-shadow)">
+    <circle cx="45" cy="85" r="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+    <line x1="35" y1="85" x2="55" y2="85" stroke="#94a3b8" stroke-width="2" stroke-linecap="round" />
+  </g>
+</svg>

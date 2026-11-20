@@ -1,0 +1,24 @@
+{
+  "name": "medication-management-system",
+  "version": "0.1.0",
+  "description": "Medication Management System backend: Express JSON API backed by SQLite, consumed by a React SPA.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/http/server.js",
+    "seed": "node scripts/seed.js",
+    "build:client": "npm --prefix client run build",
+    "dev:client": "npm --prefix client run dev"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "express": "^4.22.3"
+  },
+  "devDependencies": {
+    "fast-check": "^3.23.2"
+  }
+}

@@ -1,0 +1,15 @@
+node_modules/
+client/node_modules/
+client/dist/
+*.log
+*.sqlite
+*.db
+*.db-wal
+*.db-shm
+.env
+client/.env
+graphify-out/
+
+# Local Python environment for document conversion
+docs/.venv/
+.DS_Store

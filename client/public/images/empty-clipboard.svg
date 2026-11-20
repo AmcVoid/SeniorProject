@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" fill="none">
+  <defs>
+    <filter id="clip-shadow" x="-10%" y="-10%" width="130%" height="130%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.06" />
+    </filter>
+  </defs>
+
+  <!-- Soft Ambient Circle -->
+  <circle cx="100" cy="80" r="60" fill="#f1f5f9" />
+
+  <!-- Clipboard Body -->
+  <g filter="url(#clip-shadow)">
+    <rect x="58" y="30" width="84" height="106" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+    <!-- Clip Top -->
+    <rect x="80" y="22" width="40" height="14" rx="4" fill="#94a3b8" />
+    <circle cx="100" cy="27" r="3" fill="#ffffff" />
+
+    <!-- Medical Cross Watermark -->
+    <rect x="97" y="58" width="6" height="20" rx="2" fill="#e2e8f0" />
+    <rect x="90" y="65" width="20" height="6" rx="2" fill="#e2e8f0" />
+
+    <!-- Subtle Lines -->
+    <rect x="74" y="90" width="52" height="4" rx="2" fill="#e2e8f0" />
+    <rect x="74" y="100" width="36" height="4" rx="2" fill="#e2e8f0" />
+    <rect x="74" y="110" width="44" height="4" rx="2" fill="#f1f5f9" />
+  </g>
+
+  <!-- Little sparkle / check accents -->
+  <circle cx="148" cy="45" r="4" fill="#38bdf8" opacity="0.6" />
+  <circle cx="48" cy="110" r="5" fill="#2dd4bf" opacity="0.5" />
+</svg>

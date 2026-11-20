@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" fill="none">
+  <defs>
+    <linearGradient id="login-grad-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0f766e" />
+    </linearGradient>
+    <linearGradient id="shield-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <filter id="login-shadow" x="-10%" y="-10%" width="130%" height="130%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0369a1" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <!-- Ambient Glow & Decorative Circles -->
+  <circle cx="200" cy="160" r="130" fill="#f0f9ff" />
+  <circle cx="200" cy="160" r="105" fill="#e0f2fe" opacity="0.6" />
+  <circle cx="70" cy="80" r="18" fill="#bae6fd" opacity="0.4" />
+  <circle cx="330" cy="240" r="24" fill="#ccfbf1" opacity="0.5" />
+
+  <!-- Central Medical Shield -->
+  <g filter="url(#login-shadow)">
+    <!-- Outer Shield -->
+    <path d="M200 45C255 58 300 78 300 135C300 215 200 265 200 265C200 265 100 215 100 135C100 78 145 58 200 45Z" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" />
+    <!-- Inner Shield Gradient -->
+    <path d="M200 58C248 70 286 87 286 138C286 208 200 252 200 252C200 252 114 208 114 138C114 87 152 70 200 58Z" fill="url(#login-grad-bg)" />
+
+    <!-- Medical Cross inside Shield -->
+    <rect x="187" y="95" width="26" height="70" rx="6" fill="#ffffff" />
+    <rect x="165" y="117" width="70" height="26" rx="6" fill="#ffffff" />
+
+    <!-- Padlock representing HIPAA/PHI Security -->
+    <g transform="translate(176, 175)">
+      <!-- Shackle -->
+      <path d="M12 12V7C12 2.6 15.6 -1 20 -1C24.4 -1 28 2.6 28 7V12" stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" />
+      <!-- Lock Body -->
+      <rect x="4" y="10" width="32" height="24" rx="6" fill="#ffffff" />
+      <circle cx="20" cy="20" r="3" fill="#0284c7" />
+      <line x1="20" y1="21" x2="20" y2="27" stroke="#0284c7" stroke-width="2.5" stroke-linecap="round" />
+    </g>
+  </g>
+
+  <!-- Left Floating Pill -->
+  <g transform="rotate(-40 90 190)" filter="url(#login-shadow)">
+    <rect x="75" y="170" width="22" height="50" rx="11" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" />
+    <rect x="75" y="195" width="22" height="25" rx="11" fill="#0d9488" />
+    <rect x="75" y="193" width="22" height="4" fill="#0d9488" />
+  </g>
+
+  <!-- Right Floating Pill -->
+  <g transform="rotate(35 310 110)" filter="url(#login-shadow)">
+    <rect x="300" y="90" width="20" height="46" rx="10" fill="#38bdf8" />
+    <rect x="300" y="113" width="20" height="23" rx="10" fill="#ffffff" stroke="#e2e8f0" />
+    <line x1="298" y1="113" x2="322" y2="113" stroke="#0284c7" stroke-width="1" />
+  </g>
+
+  <!-- Bottom Verification Check Badge -->
+  <g filter="url(#login-shadow)">
+    <circle cx="280" cy="225" r="22" fill="#22c55e" stroke="#ffffff" stroke-width="3" />
+    <path d="M272 225L277 230L288 219" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

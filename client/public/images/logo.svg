@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="logo-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0f766e" />
+    </linearGradient>
+    <linearGradient id="pill-fill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#2dd4bf" />
+    </linearGradient>
+  </defs>
+  <!-- Rounded Shield Base -->
+  <rect x="2" y="2" width="44" height="44" rx="12" fill="url(#logo-bg)" />
+  <!-- Medical Cross / Shield Accent -->
+  <path d="M24 10C24 10 35 13 35 22C35 32 24 38 24 38C24 38 13 32 13 22C13 13 24 10 24 10Z" fill="rgba(255,255,255,0.15)" />
+  <!-- Stylized Capsule Pill Angled -->
+  <g transform="rotate(-30 24 24)">
+    <!-- Top Half -->
+    <rect x="19" y="12" width="10" height="12" rx="5" fill="#ffffff" />
+    <!-- Bottom Half -->
+    <rect x="19" y="24" width="10" height="12" rx="5" fill="url(#pill-fill)" />
+    <!-- Capsule Seam -->
+    <line x1="18.5" y1="24" x2="29.5" y2="24" stroke="#0284c7" stroke-width="1" />
+  </g>
+  <!-- Heartbeat Pulse Accent -->
+  <path d="M10 27L14 27L16 23L19 31L22 25L24 28L38 28" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.9" />
+</svg>
